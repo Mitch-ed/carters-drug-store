@@ -6,48 +6,181 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Your neighborhood pharmacy, now online",
             "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Everyday health essentials, thoughtful gifts and friendly pharmacist advice. Order online for free local delivery or same-day pickup.",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_1": "Shop OTC medicine",
+            "button_link_1": "shopify://collections/otc-medicine",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop gifts",
+            "button_link_2": "shopify://collections/gifts",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
+        "text",
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/carters-hero.jpg",
+        "image_overlay_opacity": 50,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
         "image_behavior": "none",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
-    "featured_collection": {
+    "services": {
+      "type": "multicolumn",
+      "blocks": {
+        "col-delivery": {
+          "type": "column",
+          "settings": {
+            "title": "Free local delivery",
+            "text": "<p>On orders over $35 within 10 miles of the store.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-pickup": {
+          "type": "column",
+          "settings": {
+            "title": "Same-day pickup",
+            "text": "<p>Order by 3pm and pick up at the counter the same day.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-pharmacist": {
+          "type": "column",
+          "settings": {
+            "title": "Ask a pharmacist",
+            "text": "<p>Not sure what to take? Our pharmacists are happy to help.</p>",
+            "link_label": "Contact us",
+            "link": "shopify://pages/contact"
+          }
+        },
+        "col-flu": {
+          "type": "column",
+          "settings": {
+            "title": "Flu shots available",
+            "text": "<p>Walk-ins welcome. Most insurance plans accepted.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "col-delivery",
+        "col-pickup",
+        "col-pharmacist",
+        "col-flu"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "categories": {
+      "type": "collection-list",
+      "blocks": {
+        "cat-otc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pain-fever"
+          }
+        },
+        "cat-cold": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cold-flu-allergy"
+          }
+        },
+        "cat-vitamins": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vitamins-supplements"
+          }
+        },
+        "cat-firstaid": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "first-aid"
+          }
+        },
+        "cat-personal": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "personal-care"
+          }
+        },
+        "cat-gifts": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gifts"
+          }
+        }
+      },
+      "block_order": [
+        "cat-otc",
+        "cat-cold",
+        "cat-vitamins",
+        "cat-firstaid",
+        "cat-personal",
+        "cat-gifts"
+      ],
+      "settings": {
+        "title": "Shop by category",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "best_sellers": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Best sellers",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "best-sellers",
         "products_to_show": 8,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
@@ -55,21 +188,201 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "gifts_promo": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Gifts & cards",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Thoughtful gifts, wrapped in-store",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get-well baskets, spa sets, candles and cards, hand-assembled by our team and delivered free locally.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop gifts",
+            "button_link": "shopify://collections/gifts",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/carters-gifts.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "gifts": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Gifts for every occasion",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gifts",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
-        "padding_top": 44,
+        "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "otc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Over-the-counter medicine",
+        "heading_size": "h2",
+        "description": "<p>Trusted relief for pain, fever, colds and allergies. Questions? Ask your Carter's pharmacist.</p>",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "otc-medicine",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "vitamins": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Vitamins & supplements",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "vitamins-supplements",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Carter's Care Club",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get weekly deals, seasonal health tips and refill reminders. Plus 10% off your first online order.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "services",
+    "categories",
+    "best_sellers",
+    "gifts_promo",
+    "gifts",
+    "otc",
+    "vitamins",
+    "newsletter"
   ]
 }
