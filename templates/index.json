@@ -353,7 +353,7 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Get weekly deals, seasonal health tips and refill reminders. Plus 10% off your first online order.</p>"
+            "text": "<p>Get weekly deals, seasonal health tips and refill reminders.</p>"
           }
         },
         "email_form": {
