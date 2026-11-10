@@ -32,7 +32,7 @@
             "button_label_1": "Shop new arrivals",
             "button_link_1": "shopify://collections/new-arrivals",
             "button_style_secondary_1": false,
-            "button_label_2": "Wedding registry",
+            "button_label_2": "Gift registry",
             "button_link_2": "shopify://pages/registry",
             "button_style_secondary_2": true
           }
@@ -90,8 +90,8 @@
         "col-flu": {
           "type": "column",
           "settings": {
-            "title": "Wedding registry",
-            "text": "<p>Register with us and let friends and family shop your list.</p>",
+            "title": "Gift registry",
+            "text": "<p>Weddings, baby showers, birthdays and more. Register with us and let friends and family shop your list.</p>",
             "link_label": "Learn more",
             "link": "shopify://pages/registry"
           }
@@ -215,7 +215,7 @@
         "caption": {
           "type": "caption",
           "settings": {
-            "caption": "Wedding registry",
+            "caption": "Gift registry",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -223,14 +223,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Wedding bells ringing?",
+            "heading": "Celebrating something special?",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Set up your registry with Carter's and let friends and family shop your favorites online or in store.</p>",
+            "text": "<p>Weddings, baby showers, birthdays and more. Set up your registry with Carter's and let friends and family shop your favorites online.</p>",
             "text_style": "body"
           }
         },
