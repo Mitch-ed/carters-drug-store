@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -24,7 +33,7 @@
             "button_link_1": "shopify://collections/new-arrivals",
             "button_style_secondary_1": false,
             "button_label_2": "Wedding registry",
-            "button_link_2": "shopify://pages/wedding-registry",
+            "button_link_2": "shopify://pages/registry",
             "button_style_secondary_2": true
           }
         }
@@ -38,13 +47,13 @@
         "image": "shopify://shop_images/carters-hero.jpg",
         "image_overlay_opacity": 50,
         "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
         "image_behavior": "none",
+        "desktop_content_position": "middle-left",
         "desktop_content_alignment": "left",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
@@ -84,7 +93,7 @@
             "title": "Wedding registry",
             "text": "<p>Register with us and let friends and family shop your list.</p>",
             "link_label": "Learn more",
-            "link": "shopify://pages/wedding-registry"
+            "link": "shopify://pages/registry"
           }
         }
       },
@@ -99,11 +108,11 @@
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
@@ -114,20 +123,19 @@
     "new_arrivals": {
       "type": "featured-collection",
       "settings": {
+        "collection": "new-arrivals",
+        "products_to_show": 8,
         "title": "New arrivals",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "new-arrivals",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": true,
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -135,6 +143,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -229,7 +238,7 @@
           "type": "button",
           "settings": {
             "button_label": "Start your registry",
-            "button_link": "shopify://pages/wedding-registry",
+            "button_link": "shopify://pages/registry",
             "button_style_secondary": false
           }
         }
@@ -259,20 +268,19 @@
     "christmas": {
       "type": "featured-collection",
       "settings": {
+        "collection": "christmas",
+        "products_to_show": 8,
         "title": "Christmas & winter",
         "heading_size": "h2",
         "description": "<p>Festive décor, cozy socks and stocking stuffers for the season.</p>",
         "show_description": true,
         "description_style": "body",
-        "collection": "christmas",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "swipe_on_mobile": true,
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -280,6 +288,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -287,20 +296,19 @@
     "flags": {
       "type": "featured-collection",
       "settings": {
+        "collection": "flags-mailbox-covers",
+        "products_to_show": 8,
         "title": "Flags & mailbox covers",
         "heading_size": "h2",
         "description": "<p>Swap your Flag Mates and mailbox covers with every season.</p>",
         "show_description": true,
         "description_style": "body",
-        "collection": "flags-mailbox-covers",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "swipe_on_mobile": true,
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -308,6 +316,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -315,20 +324,19 @@
     "faith": {
       "type": "featured-collection",
       "settings": {
+        "collection": "religious",
+        "products_to_show": 4,
         "title": "Faith-inspired gifts",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "religious",
-        "products_to_show": 4,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": true,
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -336,6 +344,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
